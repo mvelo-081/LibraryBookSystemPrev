@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF940816-E17F-4284-B6A2-8A3712ED5C34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LibraryBookSystem</RootNamespace>
+    <AssemblyName>LibraryBookSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bookingsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="bookingsUserControl.Designer.cs">
+      <DependentUpon>bookingsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ist2jyDataSet.cs">
+      <DependentUpon>ist2jyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ist2jyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ist2jyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LibrarianHomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LibrarianHomePage.Designer.cs">
+      <DependentUpon>LibrarianHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandingPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LandingPage.Designer.cs">
+      <DependentUpon>LandingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerHomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerHomePage.Designer.cs">
+      <DependentUpon>ManagerHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerMenuUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerMenuUserControl.Designer.cs">
+      <DependentUpon>ManagerMenuUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuUserControl.Designer.cs">
+      <DependentUpon>MenuUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewStudentUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewStudentUserControl1.Designer.cs">
+      <DependentUpon>NewStudentUserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewBooksUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewBooksUserControl.Designer.cs">
+      <DependentUpon>ViewBooksUserControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bookingsUserControl.resx">
+      <DependentUpon>bookingsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibrarianHomePage.resx">
+      <DependentUpon>LibrarianHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandingPage.resx">
+      <DependentUpon>LandingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerHomePage.resx">
+      <DependentUpon>ManagerHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerMenuUserControl.resx">
+      <DependentUpon>ManagerMenuUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUserControl.resx">
+      <DependentUpon>MenuUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewStudentUserControl1.resx">
+      <DependentUpon>NewStudentUserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ViewBooksUserControl.resx">
+      <DependentUpon>ViewBooksUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ist2jyDataSet.xsc">
+      <DependentUpon>ist2jyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ist2jyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ist2jyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ist2jyDataSet.xss">
+      <DependentUpon>ist2jyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

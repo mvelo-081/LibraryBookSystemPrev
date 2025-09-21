@@ -1,0 +1,17 @@
+C:\Users\mvelo\source\repos\LibraryBookSystem\bin\Debug\LibraryBookSystem.exe.config
+C:\Users\mvelo\source\repos\LibraryBookSystem\bin\Debug\LibraryBookSystem.exe
+C:\Users\mvelo\source\repos\LibraryBookSystem\bin\Debug\LibraryBookSystem.pdb
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.csproj.AssemblyReference.cache
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.LandingPage.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.Properties.Resources.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.csproj.GenerateResource.cache
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.csproj.CoreCompileInputs.cache
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.exe
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.pdb
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.bookingsUserControl.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.LibrarianHomePage.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.NewStudentUserControl1.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.ViewBooksUserControl.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.MenuUserControl.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.ManagerHomePage.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.ManagerMenuUserControl.resources

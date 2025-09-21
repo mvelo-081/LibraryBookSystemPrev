@@ -1,0 +1,256 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\librarianhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:librarianhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\managermenuusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:managermenuusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\menuusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:menuusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\menuusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:menuusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\managermenuusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:managermenuusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\librarianhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:librarianhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\newstudentusercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:newstudentusercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\newstudentusercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:newstudentusercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\bookingsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:bookingsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|c:\\users\\mvelo\\source\\repos\\librarybooksystem\\bookingsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:bookingsusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\viewbooksusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:viewbooksusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\viewbooksusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:viewbooksusercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ist2jydataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:ist2jydataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ist2jydataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF940816-E17F-4284-B6A2-8A3712ED5C34}|LibraryBookSystem.csproj|solutionrelative:ist2jydataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibrarianHomePage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\LibrarianHomePage.cs",
+              "RelativeDocumentMoniker": "LibrarianHomePage.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\LibrarianHomePage.cs [Design]*",
+              "RelativeToolTip": "LibrarianHomePage.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T22:12:23.706Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManagerMenuUserControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ManagerMenuUserControl.cs",
+              "RelativeDocumentMoniker": "ManagerMenuUserControl.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ManagerMenuUserControl.cs [Design]",
+              "RelativeToolTip": "ManagerMenuUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:49:18.995Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuUserControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\MenuUserControl.cs",
+              "RelativeDocumentMoniker": "MenuUserControl.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\MenuUserControl.cs [Design]",
+              "RelativeToolTip": "MenuUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:52:24.95Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\MenuUserControl.cs",
+              "RelativeDocumentMoniker": "MenuUserControl.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\MenuUserControl.cs",
+              "RelativeToolTip": "MenuUserControl.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAzwFEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:53:09.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagerMenuUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ManagerMenuUserControl.cs",
+              "RelativeDocumentMoniker": "ManagerMenuUserControl.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ManagerMenuUserControl.cs",
+              "RelativeToolTip": "ManagerMenuUserControl.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:54:15.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibrarianHomePage.cs",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\LibrarianHomePage.cs",
+              "RelativeDocumentMoniker": "LibrarianHomePage.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\LibrarianHomePage.cs*",
+              "RelativeToolTip": "LibrarianHomePage.cs*",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwDwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T19:14:27.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewStudentUserControl1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\NewStudentUserControl1.cs",
+              "RelativeDocumentMoniker": "NewStudentUserControl1.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\NewStudentUserControl1.cs [Design]",
+              "RelativeToolTip": "NewStudentUserControl1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T19:20:16.546Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NewStudentUserControl1.cs",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\NewStudentUserControl1.cs",
+              "RelativeDocumentMoniker": "NewStudentUserControl1.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\NewStudentUserControl1.cs",
+              "RelativeToolTip": "NewStudentUserControl1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T20:34:28.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bookingsUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\bookingsUserControl.cs",
+              "RelativeDocumentMoniker": "bookingsUserControl.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\bookingsUserControl.cs",
+              "RelativeToolTip": "bookingsUserControl.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T19:38:29.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bookingsUserControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\bookingsUserControl.cs",
+              "RelativeDocumentMoniker": "bookingsUserControl.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\bookingsUserControl.cs [Design]",
+              "RelativeToolTip": "bookingsUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T19:20:19.753Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewBooksUserControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ViewBooksUserControl.Designer.cs",
+              "RelativeDocumentMoniker": "ViewBooksUserControl.Designer.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ViewBooksUserControl.Designer.cs",
+              "RelativeToolTip": "ViewBooksUserControl.Designer.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:23:34.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ViewBooksUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ViewBooksUserControl.cs",
+              "RelativeDocumentMoniker": "ViewBooksUserControl.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ViewBooksUserControl.cs",
+              "RelativeToolTip": "ViewBooksUserControl.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAMwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:14:15.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ist2jyDataSet.cs",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ist2jyDataSet.cs",
+              "RelativeDocumentMoniker": "ist2jyDataSet.cs",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ist2jyDataSet.cs",
+              "RelativeToolTip": "ist2jyDataSet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:13:19.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ist2jyDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ist2jyDataSet.xsd",
+              "RelativeDocumentMoniker": "ist2jyDataSet.xsd",
+              "ToolTip": "C:\\Users\\mvelo\\source\\repos\\LibraryBookSystem\\ist2jyDataSet.xsd",
+              "RelativeToolTip": "ist2jyDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-09-19T21:57:31.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
