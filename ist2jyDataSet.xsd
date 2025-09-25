@@ -69,50 +69,41 @@ SELECT CustNo, Title, FirstName, LastName FROM CUSTOMERPRAC3 WHERE (CustNo = @Cu
               <Mapping SourceColumn="FirstName" DataSetColumn="FirstName" />
               <Mapping SourceColumn="LastName" DataSetColumn="LastName" />
             </Mappings>
-            <Sources>
-              <DbSource ConnectionRef="ist2jyConnectionString (Settings)" DbObjectName="ist2jy.dbo.CUSTOMERPRAC3" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>SELECT CustNo, Title, FirstName, LastName FROM dbo.CUSTOMERPRAC3</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-            </Sources>
+            <Sources />
           </TableAdapter>
         </Tables>
         <Sources />
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="ist2jyDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ist2jyDataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ist2jyDataSet">
+  <xs:element name="ist2jyDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="ist2jyDataSet" msprop:Generator_DataSetName="ist2jyDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="CUSTOMERPRAC3" msprop:Generator_RowClassName="CUSTOMERPRAC3Row" msprop:Generator_RowEvHandlerName="CUSTOMERPRAC3RowChangeEventHandler" msprop:Generator_RowDeletedName="CUSTOMERPRAC3RowDeleted" msprop:Generator_RowDeletingName="CUSTOMERPRAC3RowDeleting" msprop:Generator_RowEvArgName="CUSTOMERPRAC3RowChangeEvent" msprop:Generator_TablePropName="CUSTOMERPRAC3" msprop:Generator_RowChangedName="CUSTOMERPRAC3RowChanged" msprop:Generator_UserTableName="CUSTOMERPRAC3" msprop:Generator_RowChangingName="CUSTOMERPRAC3RowChanging" msprop:Generator_TableClassName="CUSTOMERPRAC3DataTable" msprop:Generator_TableVarName="tableCUSTOMERPRAC3">
+        <xs:element name="CUSTOMERPRAC3" msprop:Generator_RowEvHandlerName="CUSTOMERPRAC3RowChangeEventHandler" msprop:Generator_RowDeletedName="CUSTOMERPRAC3RowDeleted" msprop:Generator_RowDeletingName="CUSTOMERPRAC3RowDeleting" msprop:Generator_RowEvArgName="CUSTOMERPRAC3RowChangeEvent" msprop:Generator_TablePropName="CUSTOMERPRAC3" msprop:Generator_RowChangedName="CUSTOMERPRAC3RowChanged" msprop:Generator_RowChangingName="CUSTOMERPRAC3RowChanging" msprop:Generator_TableClassName="CUSTOMERPRAC3DataTable" msprop:Generator_RowClassName="CUSTOMERPRAC3Row" msprop:Generator_TableVarName="tableCUSTOMERPRAC3" msprop:Generator_UserTableName="CUSTOMERPRAC3">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="CustNo" msprop:Generator_UserColumnName="CustNo" msprop:Generator_ColumnPropNameInTable="CustNoColumn" msprop:Generator_ColumnPropNameInRow="CustNo" msprop:Generator_ColumnVarNameInTable="columnCustNo">
+              <xs:element name="CustNo" msprop:Generator_ColumnPropNameInRow="CustNo" msprop:Generator_ColumnPropNameInTable="CustNoColumn" msprop:Generator_ColumnVarNameInTable="columnCustNo" msprop:Generator_UserColumnName="CustNo">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="5" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" minOccurs="0">
+              <xs:element name="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_UserColumnName="Title" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="5" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="FirstName" msprop:Generator_UserColumnName="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" minOccurs="0">
+              <xs:element name="FirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_UserColumnName="FirstName" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="LastName" msprop:Generator_UserColumnName="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" minOccurs="0">
+              <xs:element name="LastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_UserColumnName="LastName" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TextBox studentSurnameData;
             this.label1 = new System.Windows.Forms.Label();
             this.cellPhoneNumberTextData = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,18 +38,9 @@
             this.roleLabel = new System.Windows.Forms.Label();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.newStudentBtn = new System.Windows.Forms.Button();
-            studentSurnameData = new System.Windows.Forms.TextBox();
+            this.StudentSurnameData = new System.Windows.Forms.TextBox();
+            this.ErrorLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // studentSurnameData
-            // 
-            studentSurnameData.BackColor = System.Drawing.SystemColors.Control;
-            studentSurnameData.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            studentSurnameData.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            studentSurnameData.Location = new System.Drawing.Point(173, 195);
-            studentSurnameData.Name = "studentSurnameData";
-            studentSurnameData.Size = new System.Drawing.Size(422, 30);
-            studentSurnameData.TabIndex = 18;
             // 
             // label1
             // 
@@ -152,25 +142,49 @@
             this.newStudentBtn.Text = "Add Student";
             this.newStudentBtn.UseVisualStyleBackColor = true;
             // 
+            // StudentSurnameData
+            // 
+            this.StudentSurnameData.BackColor = System.Drawing.SystemColors.Control;
+            this.StudentSurnameData.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.StudentSurnameData.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StudentSurnameData.Location = new System.Drawing.Point(173, 192);
+            this.StudentSurnameData.Name = "StudentSurnameData";
+            this.StudentSurnameData.Size = new System.Drawing.Size(422, 30);
+            this.StudentSurnameData.TabIndex = 25;
+            // 
+            // ErrorLabel
+            // 
+            this.ErrorLabel.AutoSize = true;
+            this.ErrorLabel.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErrorLabel.ForeColor = System.Drawing.Color.Red;
+            this.ErrorLabel.Location = new System.Drawing.Point(278, 423);
+            this.ErrorLabel.Name = "ErrorLabel";
+            this.ErrorLabel.Size = new System.Drawing.Size(209, 17);
+            this.ErrorLabel.TabIndex = 26;
+            this.ErrorLabel.Text = "Use the Mananger Profile to Sign in!";
+            this.ErrorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ErrorLabel.Visible = false;
+            // 
             // NewStudentUserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ErrorLabel);
+            this.Controls.Add(this.StudentSurnameData);
             this.Controls.Add(this.newStudentBtn);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.cellPhoneNumberTextData);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.emailTextData);
             this.Controls.Add(this.label3);
-            this.Controls.Add(studentSurnameData);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.studentNameData);
             this.Controls.Add(this.roleLabel);
             this.Controls.Add(this.label1);
-            this.MaximumSize = new System.Drawing.Size(810, 510);
-            this.MinimumSize = new System.Drawing.Size(810, 510);
+            this.MaximumSize = new System.Drawing.Size(890, 555);
+            this.MinimumSize = new System.Drawing.Size(890, 555);
             this.Name = "NewStudentUserControl1";
-            this.Size = new System.Drawing.Size(810, 510);
+            this.Size = new System.Drawing.Size(890, 555);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -188,5 +202,7 @@
         private System.Windows.Forms.Label roleLabel;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button newStudentBtn;
+        private System.Windows.Forms.TextBox StudentSurnameData;
+        private System.Windows.Forms.Label ErrorLabel;
     }
 }

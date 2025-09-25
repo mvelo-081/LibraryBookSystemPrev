@@ -33,5 +33,16 @@ namespace LibraryBookSystem.Properties {
                 return ((string)(this["ist2jyConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=143.128.146.30\\istn2;Initial Catalog=ist2ko;Persist Security Info=Tru" +
+            "e;User ID=ist2ko;Encrypt=True;TrustServerCertificate=True")]
+        public string ist2koConnectionString {
+            get {
+                return ((string)(this["ist2koConnectionString"]));
+            }
+        }
     }
 }

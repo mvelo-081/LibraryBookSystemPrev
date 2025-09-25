@@ -39,7 +39,7 @@
             // btn6
             // 
             this.btn6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn6.Location = new System.Drawing.Point(580, 306);
+            this.btn6.Location = new System.Drawing.Point(617, 338);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(177, 153);
             this.btn6.TabIndex = 17;
@@ -50,40 +50,40 @@
             // btn5
             // 
             this.btn5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.Location = new System.Drawing.Point(313, 306);
+            this.btn5.Location = new System.Drawing.Point(350, 338);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(177, 153);
             this.btn5.TabIndex = 16;
-            this.btn5.Text = "feature 5";
+            this.btn5.Text = "View overdue returns";
             this.btn5.UseVisualStyleBackColor = true;
             this.btn5.Click += new System.EventHandler(this.returnedBookBtn_Click);
             // 
             // btn4
             // 
             this.btn4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn4.Location = new System.Drawing.Point(42, 306);
+            this.btn4.Location = new System.Drawing.Point(79, 338);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(177, 153);
             this.btn4.TabIndex = 15;
-            this.btn4.Text = "feature 4";
+            this.btn4.Text = "Add new Book";
             this.btn4.UseVisualStyleBackColor = true;
             this.btn4.Click += new System.EventHandler(this.viewBookingsBtn_Click);
             // 
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.Location = new System.Drawing.Point(580, 47);
+            this.btn3.Location = new System.Drawing.Point(617, 79);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(177, 153);
             this.btn3.TabIndex = 14;
-            this.btn3.Text = "feature 3";
+            this.btn3.Text = "View Statistics";
             this.btn3.UseVisualStyleBackColor = true;
             this.btn3.Click += new System.EventHandler(this.bookingBtn_Click);
             // 
             // manageLibrartStaffBtn
             // 
             this.manageLibrartStaffBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.manageLibrartStaffBtn.Location = new System.Drawing.Point(313, 47);
+            this.manageLibrartStaffBtn.Location = new System.Drawing.Point(350, 79);
             this.manageLibrartStaffBtn.Name = "manageLibrartStaffBtn";
             this.manageLibrartStaffBtn.Size = new System.Drawing.Size(177, 153);
             this.manageLibrartStaffBtn.TabIndex = 13;
@@ -94,7 +94,7 @@
             // viewDataBaseTableBtn
             // 
             this.viewDataBaseTableBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewDataBaseTableBtn.Location = new System.Drawing.Point(42, 47);
+            this.viewDataBaseTableBtn.Location = new System.Drawing.Point(79, 79);
             this.viewDataBaseTableBtn.Name = "viewDataBaseTableBtn";
             this.viewDataBaseTableBtn.Size = new System.Drawing.Size(177, 153);
             this.viewDataBaseTableBtn.TabIndex = 12;
@@ -112,10 +112,10 @@
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.manageLibrartStaffBtn);
             this.Controls.Add(this.viewDataBaseTableBtn);
-            this.MaximumSize = new System.Drawing.Size(810, 510);
-            this.MinimumSize = new System.Drawing.Size(810, 510);
+            this.MaximumSize = new System.Drawing.Size(890, 555);
+            this.MinimumSize = new System.Drawing.Size(890, 555);
             this.Name = "ManagerMenuUserControl";
-            this.Size = new System.Drawing.Size(810, 510);
+            this.Size = new System.Drawing.Size(890, 555);
             this.ResumeLayout(false);
 
         }

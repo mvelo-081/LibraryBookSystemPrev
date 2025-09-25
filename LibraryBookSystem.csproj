@@ -32,6 +32,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>LibraryBookSystem.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,13 +56,26 @@
     <Compile Include="bookingsUserControl.Designer.cs">
       <DependentUpon>bookingsUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="ist2jyDataSet.cs">
-      <DependentUpon>ist2jyDataSet.xsd</DependentUpon>
+    <Compile Include="BorrowHistoryUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BorrowHistoryUserControl1.Designer.cs">
+      <DependentUpon>BorrowHistoryUserControl1.cs</DependentUpon>
     </Compile>
     <Compile Include="ist2jyDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ist2jyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ist2koDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ist2koDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ist2koDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ist2koDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="LibrarianHomePage.cs">
       <SubType>UserControl</SubType>
@@ -98,14 +115,35 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservationUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReservationUserControl1.Designer.cs">
+      <DependentUpon>ReservationUserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnBookUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReturnBookUserControl1.Designer.cs">
+      <DependentUpon>ReturnBookUserControl1.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewBooksUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ViewBooksUserControl.Designer.cs">
       <DependentUpon>ViewBooksUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewReservationUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewReservationUserControl.Designer.cs">
+      <DependentUpon>ViewReservationUserControl.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="bookingsUserControl.resx">
       <DependentUpon>bookingsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowHistoryUserControl1.resx">
+      <DependentUpon>BorrowHistoryUserControl1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LibrarianHomePage.resx">
       <DependentUpon>LibrarianHomePage.cs</DependentUpon>
@@ -134,8 +172,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReservationUserControl1.resx">
+      <DependentUpon>ReservationUserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnBookUserControl1.resx">
+      <DependentUpon>ReturnBookUserControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewBooksUserControl.resx">
       <DependentUpon>ViewBooksUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewReservationUserControl.resx">
+      <DependentUpon>ViewReservationUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ist2jyDataSet.xsc">
       <DependentUpon>ist2jyDataSet.xsd</DependentUpon>
@@ -147,6 +194,28 @@
     </None>
     <None Include="ist2jyDataSet.xss">
       <DependentUpon>ist2jyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ist2koDataSet.xsc">
+      <DependentUpon>ist2koDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ist2koDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ist2koDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ist2koDataSet.xss">
+      <DependentUpon>ist2koDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ist2koDataSet1.xsc">
+      <DependentUpon>ist2koDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ist2koDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ist2koDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ist2koDataSet1.xss">
+      <DependentUpon>ist2koDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

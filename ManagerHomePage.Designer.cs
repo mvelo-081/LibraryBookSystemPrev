@@ -92,11 +92,11 @@
             // 
             // homePagePanel
             // 
-            this.homePagePanel.Location = new System.Drawing.Point(175, 105);
-            this.homePagePanel.MaximumSize = new System.Drawing.Size(810, 510);
-            this.homePagePanel.MinimumSize = new System.Drawing.Size(810, 510);
+            this.homePagePanel.Location = new System.Drawing.Point(140, 110);
+            this.homePagePanel.MaximumSize = new System.Drawing.Size(890, 555);
+            this.homePagePanel.MinimumSize = new System.Drawing.Size(890, 555);
             this.homePagePanel.Name = "homePagePanel";
-            this.homePagePanel.Size = new System.Drawing.Size(810, 510);
+            this.homePagePanel.Size = new System.Drawing.Size(890, 555);
             this.homePagePanel.TabIndex = 5;
             // 
             // ManagerHomePage

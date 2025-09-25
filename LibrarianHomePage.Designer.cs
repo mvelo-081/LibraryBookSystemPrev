@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LibrarianHomePage));
             this.navPanel = new System.Windows.Forms.Panel();
+            this.viewReservationBtn = new System.Windows.Forms.Button();
             this.menuBtn = new System.Windows.Forms.Button();
             this.signoutBtn = new System.Windows.Forms.Button();
             this.IconLabel = new System.Windows.Forms.Label();
@@ -41,6 +42,7 @@
             // navPanel
             // 
             this.navPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.navPanel.Controls.Add(this.viewReservationBtn);
             this.navPanel.Controls.Add(this.menuBtn);
             this.navPanel.Controls.Add(this.signoutBtn);
             this.navPanel.Controls.Add(this.IconLabel);
@@ -49,6 +51,17 @@
             this.navPanel.Name = "navPanel";
             this.navPanel.Size = new System.Drawing.Size(1148, 62);
             this.navPanel.TabIndex = 1;
+            // 
+            // viewReservationBtn
+            // 
+            this.viewReservationBtn.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewReservationBtn.Location = new System.Drawing.Point(644, 13);
+            this.viewReservationBtn.Name = "viewReservationBtn";
+            this.viewReservationBtn.Size = new System.Drawing.Size(177, 35);
+            this.viewReservationBtn.TabIndex = 4;
+            this.viewReservationBtn.Text = "Add Reservation";
+            this.viewReservationBtn.UseVisualStyleBackColor = true;
+            this.viewReservationBtn.Visible = false;
             // 
             // menuBtn
             // 
@@ -70,6 +83,7 @@
             this.signoutBtn.TabIndex = 2;
             this.signoutBtn.Text = "Sign out";
             this.signoutBtn.UseVisualStyleBackColor = true;
+            this.signoutBtn.Click += new System.EventHandler(this.signoutBtn_Click);
             // 
             // IconLabel
             // 
@@ -93,10 +107,10 @@
             // homePagePanel
             // 
             this.homePagePanel.Location = new System.Drawing.Point(175, 105);
-            this.homePagePanel.MaximumSize = new System.Drawing.Size(810, 510);
-            this.homePagePanel.MinimumSize = new System.Drawing.Size(810, 510);
+            this.homePagePanel.MaximumSize = new System.Drawing.Size(890, 555);
+            this.homePagePanel.MinimumSize = new System.Drawing.Size(890, 555);
             this.homePagePanel.Name = "homePagePanel";
-            this.homePagePanel.Size = new System.Drawing.Size(810, 510);
+            this.homePagePanel.Size = new System.Drawing.Size(890, 555);
             this.homePagePanel.TabIndex = 2;
             // 
             // LibrarianHomePage
@@ -124,5 +138,6 @@
         private System.Windows.Forms.Panel homePagePanel;
         private System.Windows.Forms.Button signoutBtn;
         private System.Windows.Forms.Button menuBtn;
+        private System.Windows.Forms.Button viewReservationBtn;
     }
 }

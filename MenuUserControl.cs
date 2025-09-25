@@ -16,7 +16,9 @@ namespace LibraryBookSystem
         private Panel homePagePanel;
 
         private Button menuBtn;
-        public MenuUserControl(Panel homePagePanel, Button menuBtn)
+
+        private Button viewReservationBtn;
+        public MenuUserControl(Panel homePagePanel, Button menuBtn, Button viewReservationBtn)
         {
             InitializeComponent();
 
@@ -24,15 +26,39 @@ namespace LibraryBookSystem
 
             this.menuBtn = menuBtn;   
 
+            this.viewReservationBtn = viewReservationBtn;
+
             bookingBtn.Click += handleBookingBtn;
 
             CreateNewStudentBtn.Click += handleCreateNewStudent;
 
             availableBooksBtn.Click += handleAvailableBooksBtn;
 
-            viewBookingsBtn.Click += handleViewBookingsBtn;
+            viewReservationsBtn.Click += handleViewReservationsBtn;
 
-            returnedBookBtn.Click += handleReturnedBookBtn;
+            viewBorrowHistBtn.Click += HandleViewBorrowHistBtn;
+
+            returnedBookBtn.Click += HandleReturnedBookBtn;
+        }
+        public MenuUserControl(Panel homePagePanel, Button menuBtn)
+        {
+            InitializeComponent();
+
+            this.homePagePanel = homePagePanel;
+
+            this.menuBtn = menuBtn;
+
+            bookingBtn.Click += handleBookingBtn;
+
+            CreateNewStudentBtn.Click += handleCreateNewStudent;
+
+            availableBooksBtn.Click += handleAvailableBooksBtn;
+
+            viewReservationsBtn.Click += handleViewReservationsBtn;
+
+            viewBorrowHistBtn.Click += HandleViewBorrowHistBtn;
+
+            returnedBookBtn.Click += HandleReturnedBookBtn;
         }
         private void switchUserControl(UserControl userControl)
         {
@@ -46,7 +72,7 @@ namespace LibraryBookSystem
         }
         private void handleBookingBtn(object sender, EventArgs e)
         {
-            switchUserControl(new bookingsUserControl(homePagePanel, menuBtn));
+            switchUserControl(new bookingsUserControl(homePagePanel, menuBtn, viewReservationBtn));
         }
 
         private void handleCreateNewStudent(object sender, EventArgs e)
@@ -56,52 +82,23 @@ namespace LibraryBookSystem
 
         private void handleAvailableBooksBtn(object sender, EventArgs e)
         {
-            switchUserControl(new ViewBooksUserControl());
+            switchUserControl(new ViewBooksUserControl(homePagePanel, menuBtn)); //
         }
 
-        private void handleViewBookingsBtn(object sender, EventArgs e)
+        private void handleViewReservationsBtn(object sender, EventArgs e)
         {
-            // switch component
+            switchUserControl(new ReservationUserControl1(homePagePanel, menuBtn, viewReservationBtn));
+
+            viewReservationBtn.Visible = true;
         }
 
-        private void handleReturnedBookBtn(object sender, EventArgs e)
+        private void HandleViewBorrowHistBtn(object sender, EventArgs e)
         {
-            // switch component
+            switchUserControl(new BorrowHistoryUserControl1(homePagePanel, menuBtn));
         }
-
-        private void MenuUserControl_Load(object sender, EventArgs e)
+        private void HandleReturnedBookBtn(object sender, EventArgs e)
         {
-
-        }
-
-        private void availableBooksBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bookingBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CreateNewStudentBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void viewBookingsBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void returnedBookBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void viewBorrowHistBtn_Click(object sender, EventArgs e)
-        {
-
+            switchUserControl(new ReturnBookUserControl1(homePagePanel, menuBtn)); // returnedBookBtn
         }
     }
 }

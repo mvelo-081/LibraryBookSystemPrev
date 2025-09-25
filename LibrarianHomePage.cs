@@ -12,7 +12,7 @@ namespace LibraryBookSystem
 {
     public partial class LibrarianHomePage : UserControl
     {
-        private Boolean isCreatingStudent = false;
+        private Boolean isAddingReservation = false;
         public LibrarianHomePage()
         {
             InitializeComponent();
@@ -21,10 +21,26 @@ namespace LibraryBookSystem
 
             signoutBtn.Click += handleSignoutBtn;
 
-            MenuUserControl menu = new MenuUserControl(homePagePanel, menuBtn);
+            viewReservationBtn.Click += handleViewReservationBtn;   
+
+            MenuUserControl menu = new MenuUserControl(homePagePanel, menuBtn, viewReservationBtn);
 
             switchUserControl(menu);
 
+        }
+        private void handleViewReservationBtn(object sender, EventArgs e)
+        {
+            if(isAddingReservation)
+            {
+                viewReservationBtn.Text = "Add Reservation";
+                switchUserControl(new ReservationUserControl1(homePagePanel, menuBtn, viewReservationBtn));
+            }
+            else
+            {
+                viewReservationBtn.Text = "View Reservations";
+                switchUserControl(new ViewReservationUserControl(homePagePanel, menuBtn, viewReservationBtn));
+            }
+            isAddingReservation = !isAddingReservation;
         }
 
 
@@ -40,9 +56,11 @@ namespace LibraryBookSystem
 
         private void handleMenuBtn(object sender, EventArgs e)
         {
-            switchUserControl(new MenuUserControl(homePagePanel, menuBtn));
+            switchUserControl(new MenuUserControl(homePagePanel, menuBtn, viewReservationBtn));
 
             menuBtn.Visible = false; 
+
+            viewReservationBtn.Visible = false;
         }
 
         private async void handleSignoutBtn(object sender, EventArgs e)
@@ -59,6 +77,11 @@ namespace LibraryBookSystem
             await Task.Delay(2000);
 
             this.FindForm().Hide(); // correct this, it kills ram ...
+        }
+
+        private void signoutBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

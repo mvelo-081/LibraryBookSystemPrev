@@ -15,3 +15,7 @@ C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.ViewBo
 C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.MenuUserControl.resources
 C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.ManagerHomePage.resources
 C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.ManagerMenuUserControl.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.ReservationUserControl1.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.BorrowHistoryUserControl1.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.ReturnBookUserControl1.resources
+C:\Users\mvelo\source\repos\LibraryBookSystem\obj\Debug\LibraryBookSystem.ViewReservationUserControl.resources
